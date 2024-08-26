@@ -95,7 +95,7 @@ define Device/openstick-mfx32
   DEVICE_MODEL := OpenStick MFX32
   DEVICE_DTS := msm8916-ufi-mfx32
     DEVICE_DTS_DIR := ../dts
-  DEVICE_PACKAGES := openstick-tweaks wpad-basic-wolfssl qcom-msm8916-modem-openstick-mfx32-firmware qcom-msm8916-openstick-mfx32-wcnss-firmware qcom-msm8916-wcnss-openstick-mfx32-nv
+  DEVICE_PACKAGES := openstick-tweaks wpad-basic-wolfssl qcom-msm8916-modem-openstick-mf32-firmware qcom-msm8916-openstick-mf32-wcnss-firmware qcom-msm8916-wcnss-openstick-mf32-nv
 endef
 TARGET_DEVICES += openstick-mfx32
 
